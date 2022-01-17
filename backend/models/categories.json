@@ -1,0 +1,26 @@
+[
+    {
+        "categoryName":"Sofa",
+        "categoryImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPC-yxNPGVvPvAU3RRwEMmkIc2sbDq3AT8-Q&usqp=CAU"
+    },
+
+    {
+        "categoryName":"Bed",
+        "categoryImage":"https://ik.imagekit.io/durian1985/tr:q-100,f-auto/durian/durian_in/category_image/1020210310102042img.jpg"
+    },
+
+    {
+        "categoryName":"Chair",
+        "categoryImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowJVQaWcsMTTek2fQ5XN7EJuTHQCf-owonw&usqp=CAU"
+  },
+
+    {
+        "categoryName":"Wadrobe",
+        "categoryImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt4MY9XYONPY3wCQPgNKCagQSZnsjuz-Ul3g&usqp=CAU"
+    },
+
+    {
+        "categoryName":"Dining set",
+        "categoryImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3l2hgw7SywBbXqEs9o7QpxRvWSKaYNZLGOQ&usqp=CAU"
+    }
+]

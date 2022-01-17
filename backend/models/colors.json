@@ -1,0 +1,30 @@
+[
+    {
+        "colorName":"Blue",
+        "colorCode":"#0000FF"
+    },
+    {
+        "colorName":"Brown",
+        "colorCode":"#581845"
+    },
+    {
+        "colorName":"Purple",
+        "colorCode":"#7A33FF"
+    },
+    {
+        "colorName":"White",
+        "colorCode":"#FFFFFF"
+    },
+    {
+        "colorName":"Beige",
+        "colorCode":"#F5F5DC"
+    },
+    {
+        "colorName":"Black",
+        "colorCode":"#000000"
+    },
+    {
+        "colorName":"Grey",
+        "colorCode":"#808080"
+    }
+]
