@@ -364,9 +364,9 @@ router.post('/updatepass', (req, res) => {
         });
 })
 router.post('/changepass', (req, res) => {
-    console.log(req.body.id)
+    console.log(req.body)
     userModel.updateOne({ _id: req.body.id },
-        { $set: { password: req.body.newPass } }, function (err, docs) {
+        { $set: { password: req.body.newPass,cartData:req.body.cartData } }, function (err, docs) {
             if (err) {
                 console.log(err)
             }

@@ -133,12 +133,14 @@ function ChangePassword() {
                 icon:"success",
                 timer:3000
               })
-              localStorage.clear()
-              navigate('/login')
+             
             const saltRounds = 10;
             const salt = bcrypt.genSaltSync(saltRounds);
             const hash = bcrypt.hashSync(dataPass.newPass, salt);
-            changePass({newPass:hash,id:data.id})
+            console.log(JSON.parse(localStorage.getItem("cartData")))
+            changePass({newPass:hash,id:data.id,cartData:JSON.parse(localStorage.getItem("cartData"))})
+            localStorage.clear()
+            navigate('/login')
             dispatch({type:"logout"})
         }
     }
